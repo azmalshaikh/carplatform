@@ -22,7 +22,7 @@ import {
 } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || '/api';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'https://carplatform-a8tk.onrender.com';
 
 function Questionnaire({ open, onClose }) {
   const [currentStep, setCurrentStep] = useState(0);
