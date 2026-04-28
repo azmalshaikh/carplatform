@@ -22,7 +22,7 @@ import {
 } from '@mui/material';
 import { Close as CloseIcon } from '@mui/icons-material';
 
-const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || 'http://localhost:3001';
+const BACKEND_URL = process.env.REACT_APP_BACKEND_URL || '/api';
 
 function Questionnaire({ open, onClose }) {
   const [currentStep, setCurrentStep] = useState(0);
